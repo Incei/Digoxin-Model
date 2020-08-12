@@ -1,0 +1,659 @@
+﻿{
+    "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v2.1/OSP_Qualification_Plan_Schema.json",
+    "Projects": [
+        {
+            "Id": "Digoxin",
+            "Path": "C:/Projects/Digoxin-Model/Digoxin.json",
+            "BuildingBlocks": []
+        }
+    ],
+    "ObservedDataSets": [],
+    "Plots": {
+        "PlotSettings": {
+            "ChartWidth": 500,
+            "ChartHeight": 400,
+            "Fonts": {
+                "AxisSize": 11,
+                "LegendSize": 9,
+                "OriginSize": 9,
+                "FontFamilyName": "Arial",
+                "WatermarkSize": 40
+            }
+        },
+        "AxesSettings": {
+            "ComparisonTimeProfile": [
+                {
+                    "Unit": "h",
+                    "Dimension": "Time",
+                    "Type": "X",
+                    "GridLines": false,
+                    "Scaling": "Linear"
+                },
+                {
+                    "Unit": "µg/l",
+                    "Dimension": "Concentration (mass)",
+                    "Type": "Y",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                }
+            ],
+            "DDIRatioPlotsPredictedVsObserved": [
+                {
+                    "Unit": "",
+                    "Dimension": "Dimensionless",
+                    "Type": "X",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                },
+                {
+                    "Unit": "",
+                    "Dimension": "Dimensionless",
+                    "Type": "Y",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                }
+            ],
+            "DDIRatioPlotsResidualsVsObserved": [
+                {
+                    "Unit": "",
+                    "Dimension": "Dimensionless",
+                    "Type": "X",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                },
+                {
+                    "Unit": "",
+                    "Dimension": "Dimensionless",
+                    "Type": "Y",
+                    "GridLines": false,
+                    "Scaling": "Linear"
+                }
+            ],
+            "GOFMergedPlotsPredictedVsObserved": [
+                {
+                    "Unit": "µg/l",
+                    "Dimension": "Concentration (mass)",
+                    "Type": "X",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                },
+                {
+                    "Unit": "µg/l",
+                    "Dimension": "Concentration (mass)",
+                    "Type": "Y",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                }
+            ],
+            "GOFMergedPlotsResidualsOverTime": [
+                {
+                    "Unit": "h",
+                    "Dimension": "Time",
+                    "Type": "X",
+                    "GridLines": false,
+                    "Scaling": "Linear"
+                },
+                {
+                    "Unit": "",
+                    "Dimension": "Dimensionless",
+                    "Type": "Y",
+                    "GridLines": false,
+                    "Scaling": "Linear"
+                }
+            ],
+            "PKRatioPlots": [
+                {
+                    "Unit": "year(s)",
+                    "Dimension": "Age",
+                    "Type": "X",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                },
+                {
+                    "Unit": "",
+                    "Dimension": "Dimensionless",
+                    "Type": "Y",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                }
+            ]
+        },
+        "AllPlots": [
+            {
+                "Project": "Digoxin",
+                "Simulation": "Digoxin colon, 0.5 mg",
+                "SectionId": 42
+            },
+            {
+                "Project": "Digoxin",
+                "Simulation": "Digoxin iv, 0.01 mg/kg",
+                "SectionId": 42
+            },
+            {
+                "Project": "Digoxin",
+                "Simulation": "Digoxin iv, 0.01 mg/kg, Charcoal",
+                "SectionId": 42
+            },
+            {
+                "Project": "Digoxin",
+                "Simulation": "Digoxin iv, 0.5 mg, 1 h",
+                "SectionId": 42
+            },
+            {
+                "Project": "Digoxin",
+                "Simulation": "Digoxin iv, 0.5 mg, 3 h",
+                "SectionId": 42
+            },
+            {
+                "Project": "Digoxin",
+                "Simulation": "Digoxin iv, 0.5 mg, Bolus",
+                "SectionId": 42
+            },
+            {
+                "Project": "Digoxin",
+                "Simulation": "Digoxin iv, 0.75 mg, 1h",
+                "SectionId": 42
+            },
+            {
+                "Project": "Digoxin",
+                "Simulation": "Digoxin iv, 1.0 mg, 0.5 h",
+                "SectionId": 42
+            },
+            {
+                "Project": "Digoxin",
+                "Simulation": "Digoxin iv, 1.0 mg, 1 h",
+                "SectionId": 42
+            },
+            {
+                "Project": "Digoxin",
+                "Simulation": "Digoxin iv, 1.0 mg, Bolus",
+                "SectionId": 42
+            },
+            {
+                "Project": "Digoxin",
+                "Simulation": "Digoxin iv, 1.5 mg, 1 h",
+                "SectionId": 42
+            },
+            {
+                "Project": "Digoxin",
+                "Simulation": "Digoxin po, 0.25 mg",
+                "SectionId": 42
+            },
+            {
+                "Project": "Digoxin",
+                "Simulation": "Digoxin po, 0.5 mg",
+                "SectionId": 42
+            },
+            {
+                "Project": "Digoxin",
+                "Simulation": "Digoxin po, 0.6 mg",
+                "SectionId": 42
+            },
+            {
+                "Project": "Digoxin",
+                "Simulation": "Digoxin po, 0.75 mg",
+                "SectionId": 42
+            },
+            {
+                "Project": "Digoxin",
+                "Simulation": "Digoxin po, 1.0 mg",
+                "SectionId": 42
+            },
+            {
+                "Project": "Digoxin",
+                "Simulation": "Digoxin po MD, 0.125 mg",
+                "SectionId": 42
+            },
+            {
+                "Project": "Digoxin",
+                "Simulation": "Digoxin po MD, 0.25 mg",
+                "SectionId": 42
+            },
+            {
+                "Project": "Digoxin",
+                "Simulation": "Digoxin po MD, 0.25 mg, LD",
+                "SectionId": 42
+            },
+            {
+                "Project": "Digoxin",
+                "Simulation": "Digoxin po MD, 2x 0.25 mg",
+                "SectionId": 42
+            },
+            {
+                "Project": "Digoxin",
+                "Simulation": "Digoxin po MD, 2x 0.25 mg - 2",
+                "SectionId": 42
+            }
+        ],
+        "GOFMergedPlots": [
+            {
+                "Title": "Goodness of fit plor for concentration in plasma.",
+                "SectionId": 41,
+                "Artifacts": [
+                    "Plot",
+                    "GMFE",
+                    "Measure"
+                ],
+                "PlotType": "predictedVsObserved|residualsOverTime",
+                "Groups": [
+                    {
+                        "Caption": "Digoxin colonic admin.",
+                        "Symbol": "Circle",
+                        "OutputMappings": [
+                            {
+                                "Project": "Digoxin",
+                                "Simulation": "Digoxin colon, 0.5 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Digoxin, 0.5 mg colon, Ochs 75.1",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Digoxin",
+                                "Simulation": "Digoxin colon, 0.5 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Digoxin, 0.5 mg colon, Ochs 75.2",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Digoxin",
+                                "Simulation": "Digoxin colon, 0.5 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Digoxin, 0.5 mg colon, Ochs 75.3",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Digoxin",
+                                "Simulation": "Digoxin colon, 0.5 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Digoxin, 0.5 mg colon, Ochs 75.4",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Digoxin",
+                                "Simulation": "Digoxin colon, 0.5 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Digoxin, 0.5 mg colon, Ochs 75.5",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Digoxin",
+                                "Simulation": "Digoxin colon, 0.5 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Digoxin, 0.5 mg colon, Ochs 75.6",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Digoxin",
+                                "Simulation": "Digoxin colon, 0.5 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Digoxin, 0.5 mg colon, Ochs 75.7",
+                                "Color": "#000000"
+                            },
+                            {
+                                "Project": "Digoxin",
+                                "Simulation": "Digoxin colon, 0.5 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Digoxin, 0.5 mg colon, Ochs 75.8",
+                                "Color": "#000000"
+                            }
+                        ]
+                    },
+                    {
+                        "Caption": "Digoxin iv",
+                        "Symbol": "Diamond",
+                        "OutputMappings": [
+                            {
+                                "Project": "Digoxin",
+                                "Simulation": "Digoxin iv, 0.01 mg/kg",
+                                "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Lalonde '85, 0.01 mg/kg iv, 0.083 h, n=10",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Digoxin",
+                                "Simulation": "Digoxin iv, 0.01 mg/kg, Charcoal",
+                                "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Lalonde '85, 0.01mg/kg + Charcoal",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Digoxin",
+                                "Simulation": "Digoxin iv, 0.5 mg, 1 h",
+                                "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Ochs '78, 0.5 mg iv, 1 h, n=9",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Digoxin",
+                                "Simulation": "Digoxin iv, 0.5 mg, 1 h",
+                                "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Wagner '80, 0.5 mg iv, 1 h, n=6",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Digoxin",
+                                "Simulation": "Digoxin iv, 0.5 mg, 1 h",
+                                "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Tsutsumi '02, 0.5 mg iv, 1 h, n=9",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Digoxin",
+                                "Simulation": "Digoxin iv, 0.5 mg, 3 h",
+                                "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Wagner '80, 0.5 mg iv, 3 h, n=6",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Digoxin",
+                                "Simulation": "Digoxin iv, 0.5 mg, Bolus",
+                                "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Wagner '80, 0.5 mg iv, bolus, n=6",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Digoxin",
+                                "Simulation": "Digoxin iv, 0.75 mg, 1h",
+                                "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Koup '75, 0.75 mg iv, 1 h, n=1",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Digoxin",
+                                "Simulation": "Digoxin iv, 1.0 mg, 0.5 h",
+                                "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Greiner '99, 1 mg iv, 0.5 h, n=8",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Digoxin",
+                                "Simulation": "Digoxin iv, 1.0 mg, 1 h",
+                                "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Ochs '78, 1 mg iv, 1 h, n=9",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Digoxin",
+                                "Simulation": "Digoxin iv, 1.0 mg, Bolus",
+                                "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Kramer '79, 1 mg iv, Bolus, n=12",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Digoxin",
+                                "Simulation": "Digoxin iv, 1.0 mg, Bolus",
+                                "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Reitman '11, 1 mg iv, Bolus, (Previous Merck Study)",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Digoxin",
+                                "Simulation": "Digoxin iv, 1.5 mg, 1 h",
+                                "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Ochs '78, 1.5 mg iv, 1 h, n=9",
+                                "Color": "#FF0000"
+                            }
+                        ]
+                    },
+                    {
+                        "Caption": "Digoxin po SD",
+                        "Symbol": "Square",
+                        "OutputMappings": [
+                            {
+                                "Project": "Digoxin",
+                                "Simulation": "Digoxin po, 0.25 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Eckermann '12, 0.25 mg po, n=16",
+                                "Color": "#005295"
+                            },
+                            {
+                                "Project": "Digoxin",
+                                "Simulation": "Digoxin po, 0.25 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Gurley A (Clari) '08, 0.25 mg po, n=18",
+                                "Color": "#005295"
+                            },
+                            {
+                                "Project": "Digoxin",
+                                "Simulation": "Digoxin po, 0.25 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Gurley B (Echi) '08, 0.25 mg po, n=18",
+                                "Color": "#005295"
+                            },
+                            {
+                                "Project": "Digoxin",
+                                "Simulation": "Digoxin po, 0.25 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Gurley C (Rifa) '08, 0.25 mg po, n=18",
+                                "Color": "#005295"
+                            },
+                            {
+                                "Project": "Digoxin",
+                                "Simulation": "Digoxin po, 0.25 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Gurley D (St. J.) '08, 0.25 mg po, n=18",
+                                "Color": "#005295"
+                            },
+                            {
+                                "Project": "Digoxin",
+                                "Simulation": "Digoxin po, 0.5 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Becquemont '01, 0.5 mg po, n=12",
+                                "Color": "#005295"
+                            },
+                            {
+                                "Project": "Digoxin",
+                                "Simulation": "Digoxin po, 0.5 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Jalava '97, 0.5 mg po, n=10",
+                                "Color": "#005295"
+                            },
+                            {
+                                "Project": "Digoxin",
+                                "Simulation": "Digoxin po, 0.5 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Larsen '07, 0.5 mg po, n=1",
+                                "Color": "#005295"
+                            },
+                            {
+                                "Project": "Digoxin",
+                                "Simulation": "Digoxin po, 0.5 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Reitman '11, 0.5 mg po, (Previous Merck Study)",
+                                "Color": "#005295"
+                            },
+                            {
+                                "Project": "Digoxin",
+                                "Simulation": "Digoxin po, 0.5 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Tayrouz '03, 0.5 mg po, n=12",
+                                "Color": "#005295"
+                            },
+                            {
+                                "Project": "Digoxin",
+                                "Simulation": "Digoxin po, 0.5 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Verstuyft '03, 0.5 mg po, n=12",
+                                "Color": "#005295"
+                            },
+                            {
+                                "Project": "Digoxin",
+                                "Simulation": "Digoxin po, 0.5 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Westphal '00, 0.5 mg po, n=10",
+                                "Color": "#005295"
+                            },
+                            {
+                                "Project": "Digoxin",
+                                "Simulation": "Digoxin po, 0.5 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Wagner '80, 0.5 mg po, n=6",
+                                "Color": "#005295"
+                            },
+                            {
+                                "Project": "Digoxin",
+                                "Simulation": "Digoxin po, 0.5 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Ragueneau '91, 0.5 mg po, n=18",
+                                "Color": "#005295"
+                            },
+                            {
+                                "Project": "Digoxin",
+                                "Simulation": "Digoxin po, 0.6 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Martin '97, 0.6 mg po, n=12",
+                                "Color": "#005295"
+                            },
+                            {
+                                "Project": "Digoxin",
+                                "Simulation": "Digoxin po, 0.75 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Rengelsh. '03, 0.75 mg po, n=12",
+                                "Color": "#005295"
+                            },
+                            {
+                                "Project": "Digoxin",
+                                "Simulation": "Digoxin po, 1.0 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Oosterhuis '91, 1 mg po, n=10",
+                                "Color": "#005295"
+                            },
+                            {
+                                "Project": "Digoxin",
+                                "Simulation": "Digoxin po, 1.0 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Hayward '78, 1 mg po, n=5",
+                                "Color": "#005295"
+                            },
+                            {
+                                "Project": "Digoxin",
+                                "Simulation": "Digoxin po, 1.0 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Greiner '99, 1 mg po, n=8",
+                                "Color": "#005295"
+                            }
+                        ]
+                    },
+                    {
+                        "Caption": "Digoxin po, MD",
+                        "Symbol": "Triangle",
+                        "OutputMappings": [
+                            {
+                                "Project": "Digoxin",
+                                "Simulation": "Digoxin po MD, 0.125 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Qui '10, 0.125 mg po MD, median, n=12",
+                                "Color": "#008000"
+                            },
+                            {
+                                "Project": "Digoxin",
+                                "Simulation": "Digoxin po MD, 0.25 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Friedrich '11, 0.25 mg po MD, n=20",
+                                "Color": "#008000"
+                            },
+                            {
+                                "Project": "Digoxin",
+                                "Simulation": "Digoxin po MD, 0.25 mg, LD",
+                                "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Johne '99, 0.25 mg po, MD, n=12",
+                                "Color": "#008000"
+                            },
+                            {
+                                "Project": "Digoxin",
+                                "Simulation": "Digoxin po MD, 2x 0.25 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Rodin '88, 2x 0.25 mg po MD, n=10",
+                                "Color": "#008000"
+                            },
+                            {
+                                "Project": "Digoxin",
+                                "Simulation": "Digoxin po MD, 2x 0.25 mg - 2",
+                                "Output": "Organism|PeripheralVenousBlood|Digoxin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Kirch '86, 2x 0.25 mg po MD, n=7",
+                                "Color": "#008000"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "ComparisonTimeProfilePlots": [],
+        "DDIRatioPlots": [],
+        "PKRatioPlots": []
+    },
+    "Inputs": [
+        {
+            "Project": "Digoxin",
+            "Name": "Digoxin",
+            "Type": "Compound",
+            "SectionId": 40
+        }
+    ],
+    "Sections": [
+        {
+            "Id": 1,
+            "Title": "1 Introduction",
+            "Content": "Content/Section1_Introduction.md"
+        },
+        {
+            "Id": 2,
+            "Title": "2 Methods",
+            "Content": "Content/Section2_Methods.md",
+            "Sections": [
+                {
+                    "Id": 21,
+                    "Content": "Content/Section2.1_Modeling_Strategy.md",
+                    "Title": "2.1 Modeling strategy"
+                },
+                {
+                    "Id": 22,
+                    "Content": "Content/Section2.2_Data_used.md",
+                    "Title": "2.2 Data used"
+                },
+                {
+                    "Id": 23,
+                    "Content": "Content/Section2.3_Model_Parameters_and_Assumptions.md",
+                    "Title": "2.3 Model parameters and assumptions"
+                }
+            ]
+        },
+        {
+            "Id": 3,
+            "Content": "Content/Section3_Results_and_Discussion.md",
+            "Title": "3 Results and Discussion",
+            "Sections": [
+                {
+                    "Id": 40,
+                    "Content": "Content/Input_table.md",
+                    "Title": "3.1 Digoxin final input parameters"
+                },
+                {
+                    "Id": 41,
+                    "Content": "Content/GOF_diagnostics.md",
+                    "Title": "3.2 Digoxin Diagnostics Plots"
+                },
+                {
+                    "Id": 42,
+                    "Content": "Content/Concentration_time_profiles.md",
+                    "Title": "3.3 Digoxin Concentration-Time profiles"
+                }
+            ]
+        },
+        {
+            "Id": 4,
+            "Content": "Content/Section4_Conclusion.md",
+            "Title": "4 Conclusion"
+        },
+        {
+            "Id": 5,
+            "Content": "Content/References.md",
+            "Title": "5 References"
+        }
+    ],
+    "Intro": [
+        {
+            "Path": "Content/titlepage.md"
+        }
+    ]
+}
